@@ -1,2 +1,73 @@
-/*create your custom styling here*/
+.sidebar {
+	width: 300px;
+	height: 900px;
+	border: 3px solid black;
+	float: left;
+	background-color: blue;
+}
 
+#header {
+	height: 300px;
+	width: 1274px;
+	background-color: green;
+	border: 3px solid black;
+}
+
+#main-story {
+	height: 900px;
+	width: 662px;
+	border: 3px solid black;
+	background-color: orange;
+	float: left;
+}
+
+.small-box {
+	width: 196px;
+	height: 196px;
+	background-color: yellow;
+
+	margin: 50px;
+	margin-top: 60px;
+
+	border: 2px solid yellow;
+	border-radius: 25px;
+}
+
+.long-box {
+	width: 196px;
+	height: 771px;
+	border: 2px solid yellow;
+	border-radius: 25px;
+	background-color: yellow;
+
+	margin: 50px;
+	margin-top: 30px;
+}
+
+#footer {
+	float: none;
+	clear: both;
+	height: 300px;
+	width: 1274px;
+	background-color: #FF6666;
+	border: 3px solid black;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 48px;
+
+	margin: 20px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 24px;
+
+	margin: 10px;
+}
+
+p {
+	margin: 14px;
+	font-size: 18px;
+}

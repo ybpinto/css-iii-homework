@@ -3,24 +3,32 @@
 <html>
 <head>
 	<title>CSS Positioning I Homework</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
 	<div id="container">
-		<div id="header"></div>
-		<div class="sidebar">
-			<div class="small-box"></div>
-			<div class="small-box"></div>
-			<div class="small-box"></div>
+		<div id="header">
+			<h1>Header</h1>
 		</div>
-		<div id="main-story"></div>
-		<div class="sidebar">
-			<div class="long-box"></div>
+		<div id="content-container">
+			<div class="sidebar">
+				<h2>Sidebar</h2>
+				<div class="small-box"></div>
+				<div class="small-box"></div>
+				<div class="small-box"></div>
+			</div>
+			<div id="main-story">
+				<p>Article</p>
+			</div>
+			<div class="sidebar">
+				<h2>Sidebar</h2>
+				<div class="long-box"></div>
+			</div>
+			<div id="footer">
+				<p>Footer</p>
+			</div>
 		</div>
-		<div id="footer"></div>
-
 	</div>
-
 </body>
 </html>
